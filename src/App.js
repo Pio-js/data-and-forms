@@ -51,7 +51,7 @@ function App() {
       </Route>
 
       <Route exact path = "/">
-        <div className="App">
+        <div>
           <h1>Welcome on Countries & Login App!</h1>
         </div>
         <AuthCheck isLoggedIn = {isLoggedIn} setIsLoggedIn = {setIsLoggedIn}>
