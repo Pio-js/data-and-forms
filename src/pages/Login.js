@@ -31,7 +31,7 @@ export default function(props){
                 }
             }));
         }else if(e.nativeEvent.submitter.id =="login"){
-            alert('else');
+            alert('login');
             fetch(urlLogin, options).then(result=>result.json().then(output=> {
                 if(output.status == 'success'){
                     localStorage.setItem('token', output.token);
